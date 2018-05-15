@@ -4,7 +4,7 @@
         </ActionBar>
     </Page.actionBar>
     <GridLayout rows="*" columns="auto">
-        <ListView items="{{ items }}">
+        <ListView items="{{ items }}" itemLoading="onItemLoading">
             <ListView.itemTemplate>
                 <GridLayout rows="*" columns="auto">
                     <TextField text="{{ text }}"

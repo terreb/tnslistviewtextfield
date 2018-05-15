@@ -6,12 +6,12 @@
 	"nativescript": {
 		"id": "org.nativescript.listviewtextfield",
 		"tns-android": {
-			"version": "3.4.2"
+			"version": "4.0.1"
 		}
 	},
 	"dependencies": {
 		"nativescript-theme-core": "~1.0.4",
-		"tns-core-modules": "~3.4.0"
+		"tns-core-modules": "^4.0.0"
 	},
 	"devDependencies": {
 		"babel-traverse": "6.26.0",
